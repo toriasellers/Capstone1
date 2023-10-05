@@ -1,0 +1,23 @@
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(221, 144, 235);
+    color: #fff;
+  }
+  
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    
+  }
+
+.nav-links a :hover{
+    color: rgb(132, 34, 130);
+}

@@ -1,19 +1,29 @@
-body{
-    font-family: 'Comfortaa', cursive;
+html{
+  min-height:100%
 }
 
-/* NAVBAR STYLING STARTS */
+body{
+    font-family: 'Comfortaa', cursive;
+    background-image: linear-gradient(to bottom right, #FFD7F6, #D150FF);
+    height: 100%;
+  }
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: rgb(221, 144, 235);
-    color: #fff;
+    background-color: #D150FF;
+    width: 100%;
   }
+
+a{
+  text-decoration: none;
+  color: #fff;
+} 
   
-.nav-links a {
-    color: #fff;
+a:hover {
+    color: #740068;
     text-decoration: none;
     
   }
